@@ -1,9 +1,10 @@
 {
   "name": "platformsh-client",
-  "version": "0.1.22",
+  "version": "0.1.26",
   "description": "",
   "browser": "lib/client/platform-api.min.js",
   "main": "lib/server/platform-api.min.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "build": "rm -rf ./lib && webpack --env.mode=build",
     "dev": "webpack --progress --colors --watch --env.mode=dev",

@@ -1,4 +1,4 @@
-src
+src/**/*.js
 test
 webpack.*
 .babelrc
